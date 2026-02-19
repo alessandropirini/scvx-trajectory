@@ -4,10 +4,10 @@ Handed the controls for a small satellite, what's the *best* trajectory from A t
 <table>
   <tr>
     <td style="vertical-align: top;">
-      <video src="https://github.com/user-attachments/assets/557a9159-3703-47d1-8733-2774c19d191a" width="100%">
+      <video src="https://github.com/user-attachments/assets/6bc05a31-a0fe-432f-9ca6-865c10171915" width="100%">
     </td>
     <td style="vertical-align: top;">
-      <img width="600" height="450" src="https://github.com/user-attachments/assets/420abdb0-8202-46bf-8a6d-e953ee1f1adf" width="100%">
+      <img width="600" height="450" src="https://github.com/user-attachments/assets/e8109989-450c-4b25-91bd-f4cab7824832" width="100%">
     </td>
   </tr>
 </table>
