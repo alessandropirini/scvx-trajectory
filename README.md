@@ -1,5 +1,7 @@
-# Sequential Convex Optimization for Trajectory Generation and Control
-Handed the controls for a small satellite, what's the *best* trajectory from A to B? One strategy for trajectory generation and control allocation is sequential convex optimization. This allows both convex and non-convex constraints to be accomodated by iteratively linearizing the constraints and handling potentially infeasable constraints with slack variables that incur a large penalty. The problem then boils down to discritizing the dynamics, linearizing the non-convex constraints, solving the optimization problem, and repeating, using the previous solution as the trajectory to linearize about. More details (a lot) can be found [here](https://arxiv.org/abs/2106.09125), specifically in the section on SCvx (pg. 31).
+# Sequential Convex Optimization for Trajectory Optimization
+Difficult maneuvers in space demand more than intuition. This repository implements a Sequential Convexification (SCvx) framework to compute safe feasible satellite trajectories for autonomous docking with dynamically changing environments. Obstacle avoidance, control limits, and nonlinear orbital dynamics are handled through an iterative scheme that linearizes the problem around the current trajectory and solves a sequence of convex programs until convergence. The result is a trajectory that respects physical constraints while guiding the spacecraft smoothly and safely to its docking target.
+
+For a detailed explanation on Sequential Convexification, see the SCvx section (p. 31) of the following reference, on which the implementation is based:[here](https://arxiv.org/abs/2106.09125)
 
 <table>
   <tr>
